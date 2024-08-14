@@ -1,8 +1,4 @@
 
-
-
-
-
 #!/bin/bash
 
 echo
@@ -33,6 +29,11 @@ echo
 echo "####current file details #####"
 echo "$0"
 echo
-
   
+echo "#### ipconfig #####"
+ipconfig getifaddr en0
+echo
+
+
+
   
