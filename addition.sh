@@ -12,9 +12,8 @@ read a
 read b
 echo "$a"
 echo "$b"
-echo "addition"
 sum=$(($a+$b))
-echo "addition"
+echo "addition = $sum "
 
 
 
