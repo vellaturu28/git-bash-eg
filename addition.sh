@@ -8,9 +8,16 @@ df -h
 echo
 
 echo "enter 2 numbers"
-read $1
-read $2
-echo "$1" + "$2"
+read a
+read b
+echo "$a"
+echo "$b"
+echo "addition"
+sum=$(($a+$b))
+echo "addition"
+
+echo "$sum"
+
 
 
 
