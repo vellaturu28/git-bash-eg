@@ -30,6 +30,7 @@ echo "#### ipconfig #####"
 ipconfig getifaddr en0
 echo
 
-
+git status
+echo
 
   
