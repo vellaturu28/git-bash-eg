@@ -3,18 +3,18 @@
 #!/bin/bash
 
 echo
-echo"##### disk space ####"
+echo "##### disk space ####"
 df -h 
 echo
 
+echo "#### Addition of two numbers ####"
 echo "enter 2 numbers"
 read a
 read b
-echo "$a"
-echo "$b"
+echo
 sum=$(($a+$b))
-echo "addition = $sum "
-
+echo "addition of $a and $b = $sum "
+echo
 
 
 
